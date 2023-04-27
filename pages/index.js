@@ -5,8 +5,8 @@ import { Product, FooterBanner, HeroBanner } from "../components";
 
 import { motion } from "framer-motion";
 
-const Home = ({ products, bannerData, footerData, loading }) => {
-  if (loading) return <h1>Loading..........</h1>;
+const Home = ({ products, bannerData, footerData }) => {
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
